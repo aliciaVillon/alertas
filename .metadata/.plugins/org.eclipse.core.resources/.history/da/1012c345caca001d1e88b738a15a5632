@@ -1,0 +1,8 @@
+package pe.edu.galaxy.training.java.ms.sc.ventas.msventasgestionproductos.service;
+
+import pe.edu.ucsur.java.ms.sc.ventas.msventasgestionemergencia.dto.ClienteDTO;
+import pe.edu.ucsur.java.ms.sc.ventas.msventasgestionemergencia.service.service.GenericeService;
+
+public interface ClienteService extends GenericeService<ClienteDTO>{
+
+}
