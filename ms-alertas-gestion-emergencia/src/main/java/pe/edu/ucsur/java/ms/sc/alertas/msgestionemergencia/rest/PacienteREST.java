@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.rest;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.rest;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import lombok.extern.slf4j.Slf4j;
-import pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.dto.PacienteDTO;
-import pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.service.PacienteService;
+import pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.dto.PacienteDTO;
+import pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.service.PacienteService;
 
-import static pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.commons.GlobalConstants.API_Paciente;
-import static pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.commons.GlobalConstants.COD_MSG_EXITO;
-import static pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.commons.GlobalConstants.MSG_CONSULTA_EXITO;
+import static pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.commons.GlobalConstants.API_Paciente;
+import static pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.commons.GlobalConstants.COD_MSG_EXITO;
+import static pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.commons.GlobalConstants.MSG_CONSULTA_EXITO;
 
 import java.util.List;
 import java.util.Optional;

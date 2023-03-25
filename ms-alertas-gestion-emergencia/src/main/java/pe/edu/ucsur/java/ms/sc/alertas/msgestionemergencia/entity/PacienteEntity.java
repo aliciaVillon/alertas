@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.entity;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.entity;
 
 import java.io.Serializable;
 import javax.persistence.Column;

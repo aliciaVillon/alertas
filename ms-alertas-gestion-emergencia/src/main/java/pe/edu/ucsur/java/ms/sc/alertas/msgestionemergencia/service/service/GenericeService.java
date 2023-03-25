@@ -1,9 +1,9 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.service.service;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.service.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.service.exception.ServiceException;
+import pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.service.exception.ServiceException;
 
 public interface GenericeService<T> {
 	

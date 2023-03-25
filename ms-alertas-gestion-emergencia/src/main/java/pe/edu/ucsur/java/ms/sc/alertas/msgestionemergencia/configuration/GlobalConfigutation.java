@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.configuration;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

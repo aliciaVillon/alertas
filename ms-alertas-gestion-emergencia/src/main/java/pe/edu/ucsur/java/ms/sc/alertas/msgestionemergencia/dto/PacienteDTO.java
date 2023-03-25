@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.dto;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.dto;
 
 import java.io.Serializable;
 

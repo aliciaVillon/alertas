@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.commons;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.commons;
 
 public class GlobalConstants {
 	

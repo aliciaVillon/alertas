@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.service;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 
-import pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.dto.PacienteDTO;
-import pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.entity.PacienteEntity;
-import pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.repository.PacienteRepository;
-import pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.service.exception.ServiceException;
+import pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.dto.PacienteDTO;
+import pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.entity.PacienteEntity;
+import pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.repository.PacienteRepository;
+import pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.service.exception.ServiceException;
 
 @Service
 public class PacienteServiceImpl implements PacienteService{

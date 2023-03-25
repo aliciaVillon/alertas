@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.service.exception;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.service.exception;
 
 public class ServiceException extends Exception {
 
