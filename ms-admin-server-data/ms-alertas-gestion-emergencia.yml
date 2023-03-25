@@ -9,7 +9,12 @@ spring:
     password: 123456
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
  
-
+spring:
+  jpa:
+   hibernate:
+    dialect: org.hibernate.dialect.SQLServer2012Dialect
+    ddl-auto: update
+    
 # Spring Boot Admin
 #  boot:
  #   admin:
