@@ -7,8 +7,9 @@ spring:
     url: jdbc:sqlserver://localhost:1433;databaseName=Siscontrol
     username: sa
     password: 123456
-    driverClassName: com.h2database:h2
-  
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+ 
+
 # Spring Boot Admin
 #  boot:
  #   admin:
