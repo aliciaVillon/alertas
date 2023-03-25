@@ -2,7 +2,7 @@
 server:
   port: 8891
 
-# Registry Client
+# Registry Client 
 eureka:
    client:
       fetch-registry: true
