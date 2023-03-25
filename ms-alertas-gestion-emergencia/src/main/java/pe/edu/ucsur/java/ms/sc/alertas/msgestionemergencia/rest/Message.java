@@ -1,4 +1,4 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msgestionemergencia.rest;
+package pe.edu.ucsur.java.ms.sc.alertas.msgestionemergencia.rest;
 
 import lombok.Builder;
 import lombok.Data;
