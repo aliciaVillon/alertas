@@ -8,6 +8,7 @@ spring:
     username: sa
     password: 123456
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    encrypt: false
  
   jpa:
     database-platform: org.hibernate.dialect.SQLServerDialect
