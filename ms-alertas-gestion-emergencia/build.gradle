@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'pe.edu.ucsur.java.ms.sc.alertas'
+group = 'pe.edu.galaxy.training.java.ms.sc.ventas'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -37,7 +37,7 @@ dependencies {
 	
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
+	runtimeOnly 'mysql:mysql-connector-java'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

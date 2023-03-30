@@ -19,29 +19,56 @@ public class PacienteEntity implements Serializable{
 	private static final long serialVersionUID = -2170897015344177815L;
 
 		@Id
-	  	@Column(name = "ID_Paciente")
+	  	@Column(name = "idPaciente")
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Long id;
 	  
 	  	@NotNull(message = "Nombre del producto es requerido")
 	  	@Size(min = 5, max = 120, message = "El nombre.....")
-	  	@Column(name = "RAZON_SOCIAL")
-	  	private String razonSocial;
+	  	@Column(name = "apellidoPaterno")
+	  	private String apellidoPaterno;
 	  	
-	  	@Column(name = "RUC")
-	  	private String ruc;
+	  	@Column(name = "apellidoMaterno")
+	  	private String apellidoMaterno;
 
-	  	@Column(name = "DIRECCION")
+	  	@Column(name = "nombres")
+	  	private String nombres;
+
+	  	@Column(name = "fechaNacimiento")
+	  	private String fechaNacimiento;
+	  	
+	  	@Column(name = "idTipoDocumentoCat02")
+	  	private int idTipoDocumentoCat02;
+	  	 
+	  	@Column(name = "nroDocumento")
+	  	private String nroDocumento;
+	  	   
+	  	@Column(name = "idSexoCat02")
+	  	private int idSexoCat02;
+	  	
+	  	@Column(name = "idRegUbigeoDireccion")
+	  	private String idRegUbigeoDireccion;
+	  	
+	  	@Column(name = "direccion")
 	  	private String direccion;
-
-	  	@Column(name = "TELEFONO")
+	  	
+	  	@Column(name = "telefono")
 	  	private String telefono;
 	  	
-	  	@Column(name = "CORREO")
+	  	@Column(name = "correo")
 	  	private String correo;
 	  	
-
-	  	@Column(name = "ESTADO")
-	  	private String estado;
+	  	@Column(name = "activo")
+	  	private String activo;
+	  	
+	  	@Column(name = "fechaRegistro")
+	  	private String fechaRegistro;
+	  	 
+	  	private String fechaModificacion;
+	  	private String usuarioRegistro;
+	  	private String usuarioModificacion;
+	  	private String ipRegistro;
+	  	private String ipModificacion;
+	  		
 
 }
