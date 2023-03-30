@@ -1,8 +1,0 @@
-package pe.edu.ucsur.java.ms.sc.ventas.msventasgestionemergencia.service;
-
-import pe.edu.ucsur.java.ms.sc.ventas.msventasgestionemergencia.dto.PacienteDTO;
-import pe.edu.ucsur.java.ms.sc.ventas.msventasgestionemergencia.service.service.GenericeService;
-
-public interface PacienteService extends GenericeService<PacienteDTO>{
-
-}
