@@ -28,8 +28,9 @@ spring:
 # Registry Client
 eureka:
    client:
-      registryFetchIntervalSeconds: 5
+      registryFetchIntervalSeconds: 15
       fetch-registry: true
+      register-with-eureka: false 
       serviceUrl:
          defaultZone: http://localhost:8889/eureka
 
